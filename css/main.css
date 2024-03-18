@@ -1,0 +1,160 @@
+@font-face {
+    font-family: 'Phantomuff';
+    src: url("../font/Phantomuff_Difficult_Font.ttf");
+}
+
+body {
+    overflow-x: hidden;
+    font-family: 'Phantomuff', sans-serif;
+}
+
+.body-main {
+    background-size: cover;
+    width: 1920px;
+    height: 1080px;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: 250px 250px;
+}
+
+.header-main {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 2px solid rgb(194, 34, 42);
+    padding-bottom: 10px;
+}
+
+.header-main div {
+    line-height: 10px;
+} /*?????*/
+
+a {
+    cursor: pointer;
+}
+
+.header-main-logo {
+    margin: 0 auto;
+    width: fit-content;
+}
+
+.header-main-logo img {
+    align-self: center;
+}
+
+.header-main-nav {
+    color: white;
+    font-size: 30px;
+    font-weight: 100;
+    width: fit-content;
+}
+
+.header-main-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header-main-nav ul li {
+    display: inline;
+    float: left;
+    margin: 0 10px;
+}
+
+.header-main-nav ul li a {
+    /*uhh*/
+}
+
+.header-main-nav ul li a:hover {
+    background-color: rgb(194, 34, 42);
+}
+
+.hero-main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    border-bottom: 2px solid rgb(194, 34, 42);
+    padding-bottom: 15px;
+}
+
+.hero-content {
+    text-align: center;
+}
+
+.hero-top-text {
+    color: white;
+    font-size: 60px;
+    font-weight: 100;
+    padding-top: 10px;
+    user-select: none;
+    overflow-wrap: break-word;
+}
+
+.hero-links {
+    margin-top: 10px;
+} /* pain */
+
+.hero-links a {
+    display: inline-block;
+    margin: 0px;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+}
+
+.hero-image-container {
+    margin-top: 20px;
+}
+
+.hero-image {
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+    max-height: 550px;
+    display: block;
+    margin: 0 auto;
+}
+
+.boards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid rgb(194, 34, 42);
+}
+
+.boardhead {
+
+}
+
+.boardlinks {
+    font-size: 50px;
+    color: white;
+    line-height: 0.8;
+    padding-top: 10px;
+    margin-bottom: -20px;
+}
+
+.boardlinks a:hover {
+    background-color: rgb(194, 34, 42);
+}
+
+.main-d1 {
+    word-wrap: break-word;
+    text-align: center;
+}
+
+.footer-main {
+    color: white;
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    user-select: none;
+    font-size: small;
+    padding-top: 10px;
+}
