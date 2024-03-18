@@ -99,7 +99,7 @@ a {
 } /* pain */
 
 .hero-links a {
-    display: inline-block;
+    display: flex;
     margin: 0px;
     font-size: 18px;
     color: white;
