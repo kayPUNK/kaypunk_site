@@ -113,7 +113,7 @@ a {
 .hero-image {
     max-width: 100%;
     height: auto;
-    width: 100%;
+    width: auto;
     max-height: 550px;
     display: block;
     margin: 0 auto;
